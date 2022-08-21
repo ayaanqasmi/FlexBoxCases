@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
+
+* {
+  font-family: "roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container1 {
+  border: solid black;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+.boxlarge {
+  border: solid black;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+.boxsmall {
+  border: solid red;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.smallcontainer {
+  display: flex;
+}
+
+
+
+.title {
+  width: 100%;
+  height: 30px;
+  border: solid black;
+  margin-bottom: 20px;
+}
+.container2 {
+  width: 100%;
+  
+  border: solid black;
+  padding: 30px 30px 0px 30px;
+  display: flex;
+  justify-content: center;
+}
+.row {
+  width: 100%;
+  max-width: 600px;
+  justify-content: space-between;
+  margin: 0 auto;
+ 
+
+}
+.boxrow {
+  border: solid red;
+  width: 30%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.boxwrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.container3{
+    width:100%;
+    
+    border:solid black;
+    margin:24px;
+    
+    padding:80px 24px 80px 24px;
+    
+}
+.boxwrapper2{
+    width:45%;
+    justify-content: space-between;
+    
+}
+.boxsmall2{
+    
+    border:darkblue solid;
+    height:100px;
+    margin-bottom: 24px;
+}
+.boxlarge2{
+    width:50%;
+    border: darkgoldenrod solid;
+    margin-bottom:24px;
+    
+
+}
+.boxwrapper3{
+    display:flex;
+    justify-content: space-between;
+}
+
+.boxtiny{
+    height:100px;
+    width:30%;
+    border:darkred solid;
+    margin-bottom: 24px;;
+}
+.row2{
+    width: 100%;
+    max-width: 600px;
+    justify-content: space-between;
+    margin: 0 auto -24px auto;
+    display: flex;
+    
+  }
